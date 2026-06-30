@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #123D7A;
+  --primary-dark: #0C2E5E;
+  --primary-light: #2A5DAA;
+
+  --secondary: #FF7A2F;
+  --secondary-dark: #F06717;
+  --secondary-light: #FF9A5A;
+
+  --accent: #58C7D4;
+  --accent-dark: #27B3C6;
+  --accent-light: #A7EAF1;
+
+  --success: #1FBF75;
+
+  --background: #F8FBFF;
+  --section: #F2F7FC;
+  --card: #FFFFFF;
+
+  --text-primary: #17345F;
+  --text-secondary: #5C6F87;
+  --text-light: #909FB2;
+
+  --border: #E5EDF6;
+  --border-light: #F1F5F9;
+
+  --icon-blue: #244E94;
+  --icon-orange: #FF7A2F;
+  --icon-teal: #39C1CC;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-dark: var(--secondary-dark);
+  --color-secondary-light: var(--secondary-light);
+
+  --color-accent: var(--accent);
+  --color-accent-dark: var(--accent-dark);
+  --color-accent-light: var(--accent-light);
+
+  --color-success: var(--success);
+
+  --color-background: var(--background);
+  --color-section: var(--section);
+  --color-card: var(--card);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-light: var(--text-light);
+
+  --color-border: var(--border);
+  --color-border-light: var(--border-light);
+
+  --color-icon-blue: var(--icon-blue);
+  --color-icon-orange: var(--icon-orange);
+  --color-icon-teal: var(--icon-teal);
+}
