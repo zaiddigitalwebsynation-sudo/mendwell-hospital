@@ -54,7 +54,7 @@ const Nav = () => {
                   <span>{item.name}</span>
                   {item.dropdown && <ChevronDown size={15} />}
                   {isActive && (
-                    <span className="absolute -bottom-8 left-0 w-full h-[3px] rounded-full bg-secondary"></span>
+                    <span className="absolute -bottom-3 left-0 w-full h-[3px] rounded-full bg-secondary"></span>
                   )}
                 </>
               )}
